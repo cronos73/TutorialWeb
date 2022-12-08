@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    color:white;
+    font-family: 'calibri';
+    background: white
+}
+header{
+   background: url("../imagenes/la.gif");
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    min-width: 1000px;
+    margin:auto;
+    padding: 30px 0;
+}
+section h1{
+    font-size: 44px;
+    text-shadow: 2px 2px red;
+}
+.conte{
+    text-align: center;
+}
+.conte p{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+    text-shadow: 2px 2px 5px green;
+    text-decoration-line: underline;
+}
+.conte a{
+    color: black;
+    text-decoration: none;
+    background: #dc40ba;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 27px;
+    margin: 10px;
+}
