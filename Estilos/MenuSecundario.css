@@ -66,3 +66,9 @@ display: inline-block;
 h3{
 	color:blue;
 }
+.titulo{
+	color:purple;
+	font-size: 99px;
+	text-shadow: 2px 2px rgb(255, 0, 106);
+	text-decoration-line: underline;
+}
