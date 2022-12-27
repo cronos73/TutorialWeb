@@ -4,33 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="EstilosMenu.css">
+    <link rel="stylesheet" href="../Estilos/MenuSecundario.css">
     <title>Document</title>
 </head>
 <body>
+     <!--Inicio Menú-->
+  <header>
     <nav>
-        <ul class="menu-horizontal">
-            <li><a href="menu.html">Inicio</a></li>
-            
-            <li>
-                <a href="index.html">HTML</a>
-                <ul class="menu-vertical">
-                    <li><a href="#">Básico/a></li>
-                    <li><a href="#">Texto</a></li>
-                </ul>
-            
-            </li>
+      <ul>
+        
+        <li><a href="/Index.html">Principal</a>
+        <li><a href="../MenuPrincipal/menu.html">Menu</a>
+        <li><a href="#">CSS Básico</a>
+        <ul>
+          
+           <li><a href="text.html" > Etiquetas de Texto</a></li>
+           <li><a href="colores.html" >Colores y imagenes de fondo</a></li>
+           <li><a  href="Formulario.html">Formularios </a></li>
+           <li><a  href="partes.html">Partes Html </a></li>
+           <li><a href="Block.html">Bloc</a></li>
+         </ul>
+        </li>
+        <li><a href="../MenuPrincipal/InformacionB.html">Información Básica </a></li>
+        
 
-            <li><a href="css.html">CSS</a></li>
-            <li><a href="javaScript.html">JavaScript</a></li>
-            <li><a href="JQuery.html">JQuery</a></li>
-            <li><a href="baseDaros.html">SQL</a></li>
-            <li><a href="Java.html">JAVA</a></li>
-            <li><a href="c#.html">C#</a></li>
-            <li><a href="MQL4.html">MQL4</a></li>
-
-        </ul>
+      </ul>
     </nav>
+  </header>
+  <!--Fin Menú-->
+
+  <h1>CSS BÁSICO</h1>
+  <h2>¿Qué es?</h2>
+  <p>Son hojas de estilo en cascada permite crear páginas web atractivas </p>
+  <h2>Archivos css</h2>
+  <p>Hay 3 tipos de archivos  en css son:</p>
+  <ol>
+    <li>Estilos en Línea</li>
+    <li>Style etiqueta</li>
+    <li>Archivos.css</li>
+   </ol>
+   <h3>Estilos en Línea</h3>
+    <p>El estilo se añade directamente en la etiqueta de HTML que se desea modificar</p>
+    <b>CÓDIGO</b>
+    <br>
+    <img src="../imagenes/estilosLines.png"/>
+    <br>
+    <h3>Etiqueta STYLE</h3>
+    <p>Se define cuando esta adentro de la etiqueta  de una página  HTML es decir en el mismo código html y en ella se escribe style y se agregan los atributos </p>
+    <p>Se añade el elemento en head para describir el estilo </p>
+    <b>CÓDIGO</b>
+    <br>
+    <img src="../imagenes/etiqueta Style.png"/>
+    <br>
+    <p>Aqui se muestra como estara abajo del head</p>
+    <br>
+    <img src="../imagenes/head.png"/>
+    <br>
+    <b>RESULTADOO</b>
+    <p>Todas las etiquetas H2 se pondran de color azul </p>
+    <h2><font color ="#3A9CD3">Archivos.css</font></h2>
+    <p>En esta se crea otro documento aparte en css  y se hace una union con html </p>
+    <p>nombre.css se pone , y se manda a llamar la clase </p>
+    <img src="../imagenes/archivoscss.png">
+    <br>
+    <a  class="bo" href="https://www.youtube.com/watch?v=zzEefTCphvE" target="_blank">Video Explicando</a>
+    <br>
+    <p>Se utiliza para seleccionar los elementos HTML que se quiere diseñar , se tienen distintos tipos los cuales son: </p>
+    <ol>
+      <li>Selectores de Tipo</li>
+      <li>Agrupacion de selectores</li>
+      <li>Selector universal</li>
+      <li>Selector de clase</li>
+    </ol>
+
+    <h3>Selectores de Tipos</h3>
+    <p>Selecciona todos los elementos que coinciden con el nombre del elemento especifico ,es decir eliges una etiqueta y todos lo cue usen esa etiqueta se cumplicaran esas 
+        indicaciones
+    </p>
+    <p>Su estructura es .....</p>
+    <b>EJEMPLO 1</b>
+    <br>
+    <img src="../imagenes/select1ejemo.PNG"/>
     
+    <br>
+    <p>Traducido dice todas las etiquetas de h2 se  mostrara en azul su letra </p>
+    <br>
+    <b>EJEMPLO 2</b>
+    <br>
+    <img src="../imagenes/select1ejmo2.PNG"/>
+   
+    <p>Traducido es que todos los que estan en la etiqueta  p se mostrara negro</p>
+    <h2>AGRUPACIÓN DE SELECTORES</h2>
+    <p>Supongamos que queremos que distintos elementos tengan un mismo estilo y copear o hacerlo de nuevo , simplificamos mejor elcódigo</p>
+    
+    <img src="../imagenes/select2.PNG"/>
+    
+    <br>
+    <h3>SELECTOR UNIVERSAL</h3>
+    <p>El selector universal selecciona todos los elementos de HTML y hace lo que sepone indicacion sin importar su etiqueta </p>
+    <img src ="../imagenes/select3.PNG"/>
+
+    <br>
+    <b>EJEMPLO</b>
+    <br>
+    <img src="../imagenes/select3ejemp1.png"/>
+    <p>Muesta que todas las letras va estar de ese color </p>
+    <h3>SELECTOR DE CLASE </h3>
+    <p>Es la forma común de aplicar los filtros  ya que se puede aplicar a todos sin restrinccin </p>
+    <img src="../imagenes/select4.PNG"/>
+   
+    <br>
+    <b>EJEMPLO</b>
+    <p>Se puede poner más de una clase a un elemento</p>
+    <img src="../imagenes/select4img2.PNG"/>
+     <br>
+    <p>aqui es como se escribe en el archivo css o describe</p>
+    <img src ="../imagenes/clase.PNG"/> 
+   
+    <br>
+    <h3>SELECTOR ID</h3>
+    <p>En este te permite , que solo se use una vez  , tiene que ser un identficar unico </p>
+    
+    <img src="../imagenes/id.png">
+    <br>
+    <a  class="bo" href="https://www.youtube.com/watch?v=NSoEfqGP0p8&list=PLvRPaExkZHFkQoOMPTU4pFSz6ednD_vGE&index=2" target="_blank">Video Explicando</a>
+     
+
+
+ 
+
 </body>
 </html>

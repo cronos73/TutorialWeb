@@ -5,8 +5,8 @@
 }
 body{
   min-height: 100vh;
-  /* background-image: url("imagenes/gi.gif"); */
-  background-color: black;
+   background-image: url("imagenes/mo.gif"); 
+  /*background-color: black;*/
   background-repeat: no-repeat; 
   background-size: cover;
 
